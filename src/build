@@ -1,0 +1,2 @@
+g++ -I. -I/usr/include -I/usr/include/SDL -g -g -O2 -Wall -c *.cpp
+g++ -Wall -g -g -O2 -o multris -L/usr/lib *.o -lSDL -lSDLmain 
